@@ -1,0 +1,6 @@
+== xgem
+
+remove all of old versions for your local gems from the default install directory, just keep the latest one.
+
+== author
+xianhua.zhou@gmail.com

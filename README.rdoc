@@ -1,6 +1,8 @@
 == xgem
+Remove all of old versions for your local gems from the default install directory, just keep the latest one.
 
-remove all of old versions for your local gems from the default install directory, just keep the latest one.
+== why?
+Because some old gems are useless and used some disk space.
 
 == author
 xianhua.zhou@gmail.com

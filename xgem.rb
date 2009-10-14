@@ -1,3 +1,9 @@
+#!/usr/bin/env ruby
+#
+# PLEASE TAKE CARE, UNLESS YOU SURE YOU WANNA DO IT.
+#
+# @author xianhua.zhou@gmail.com
+#
 require 'rubygems'
 require 'rubygems/commands/uninstall_command.rb'
 
@@ -11,7 +17,7 @@ end
 
 gems.each do |name, versions|
 	next if versions.size == 1
-	v0 = versions.sort!.pop
+	versions.sort!.pop
 	versions.each do |v|
 		begin
 			options = {:version => v}
